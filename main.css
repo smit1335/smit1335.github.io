@@ -39,9 +39,9 @@ body {
 }
 .nav a {
   color: #5a5a5a;
-  font-size: 11px;
+  font-size: 1em;
   font-weight: bold;
-  padding: 14px 10px;
+  padding: 1.25em 1em;
   text-transform: uppercase;
 }
 .navbar li {
@@ -55,6 +55,9 @@ body {
   text-transform: uppercase;
 }
 /*The "#" selector selects an id*/
+#top-header {
+  float:left;
+}
 #top-navbar {
   float:left;
 }
