@@ -24,6 +24,7 @@ Use http://www.color-hex.com/color-palette/198
   padding: 14px 10px;
   text-transform: uppercase;
 }
-.footer {
+/*The "#" selector selects an id*/
+#footer {
   background-color: #317256;
 }
