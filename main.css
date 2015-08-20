@@ -33,7 +33,19 @@ body {
   /* maybe try "transparent" as background-color? */
   font-size: 100%;
 }
-
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.left {
+  float:left;
+}
+.right {
+  float:right;
+}
 .nav li {
   display: inline;
 }
@@ -55,12 +67,6 @@ body {
   text-transform: uppercase;
 }
 /*The "#" selector selects an id*/
-#top-header {
-  float:left;
-}
-#top-navbar {
-  float:left;
-}
 #footer {
   background-color: #317256;
   color: #eeeeee;
