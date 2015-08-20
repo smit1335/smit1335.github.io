@@ -1,3 +1,9 @@
+/*
+Use http://www.color-hex.com/color-palette/198
+
+
+*/
+
 .nav li {
   display: inline;
 }
@@ -17,4 +23,7 @@
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
+}
+.footer {
+  background-color: #317256;
 }
