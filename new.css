@@ -3,3 +3,18 @@
 .jumbotron h1 {
   color: #00ad06;
 }
+.btn-facebook {
+  color: #fff;
+  background-color: #3b5998;
+  border-color: rgba(0,0,0,0.2);
+}
+.btn-linkedin {
+  color: #fff;
+  background-color: #007bb6;
+  border-color: rgba(0,0,0,0.2);
+}
+.btn-twitter {
+  color: #fff;
+  background-color: #55acee;
+  border-color: rgba(0,0,0,0.2);
+}
