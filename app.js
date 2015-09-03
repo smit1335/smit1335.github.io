@@ -6,6 +6,10 @@ var main = function() {
      $(this).addClass('current');
      $(this).children('.description').show();
  });
+ 
+ $('.dropdown-toggle').click(function() {
+   $('.dropdown-menu').toggle();
+ });
 };
 
 $(document).ready(main);
