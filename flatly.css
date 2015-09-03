@@ -12,6 +12,24 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/*Custom*/
+a.btn.btn-social-icon.btn-facebook:hover {
+    color: #4060A5;
+}
+
+a.btn.btn-social-icon.btn-twitter:hover {
+    color: #00ABE3;
+}
+
+a.btn.btn-social-icon.btn-google:hover {
+    color: #e64522;
+}
+
+a.btn.btn-social-icon.btn-linkedin:hover {
+    color: #0094BC;
+}
+/*Custom End*/
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
