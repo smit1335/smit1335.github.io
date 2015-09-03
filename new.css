@@ -1,4 +1,5 @@
 /* new css for new main page, index.html */
+
 a.btn.btn-social-icon.btn-facebook:hover {
     color: #4060A5;
 }
@@ -22,4 +23,8 @@ a.btn.btn-social-icon.btn-linkedin:hover {
 .caption h3 {
   text-align: center;
   text-transform: uppercase;
+}
+
+body {
+  background-color: #b2cbe4;
 }
