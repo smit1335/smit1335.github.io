@@ -1,21 +1,25 @@
 /* new css for new main page, index.html */
+a.btn.btn-social-icon.btn-facebook:hover {
+    color: #4060A5;
+}
+
+a.btn.btn-social-icon.btn-twitter:hover {
+    color: #00ABE3;
+}
+
+a.btn.btn-social-icon.btn-google:hover {
+    color: #e64522;
+}
+
+a.btn.btn-social-icon.btn-linkedin:hover {
+    color: #0094BC;
+}
 
 .jumbotron h1 {
   color: #00ad06;
 }
 
-.fa-facebook:hover {
-    color: #4060A5;
-}
-
-.fa-twitter:hover {
-    color: #00ABE3;
-}
-
-.fa-google:hover {
-    color: #e64522;
-}
-
-.fa-linkedin:hover {
-    color: #0094BC;
+.caption h3 {
+  text-align: center;
+  text-transform: uppercase;
 }
