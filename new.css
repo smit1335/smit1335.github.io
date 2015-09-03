@@ -17,9 +17,23 @@ a.btn.btn-social-icon.btn-linkedin:hover {
 }
 
 .jumbotron h1 {
+  color: #ffffff;
+}
+
+.jumbotron {
+  background-color: #1A52C0;
+}
+
+btn-primary {
+  background-color: #FC0A16;
+}
+
+.thumbnail {
+  background-color: #5C88E0;
 }
 
 .caption h3 {
   text-align: center;
   text-transform: uppercase;
+  color: #ffffff;
 }
