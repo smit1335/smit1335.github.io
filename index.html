@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<!--Organizational Structure of Main Page
+<!--Organizational Structure of <body>
 1. Navigation (class="navigation-top")
   a. Navigation Bar Header (class="navigation-header")
       i. Brand or Logo (class="my-brand")
+     ii. Responsive Menu Button (class="navigation-menu-toggle")
   b. Navigation Bar (class="navigation-bar-top")
       i. Navigation Left (class="navigation-bar-top-left")
      ii. Navigation Right (class="navigation-bar-top-right")
@@ -57,6 +58,39 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
+    <!--At the top of our page goes our navigation bar-->
+    <nav class="navigation-top navigation-bar">
+      <!--We want to keep all of our navigation elements together in a grouping of sorts; lets use "container" (this class is also used by bootstrap)-->
+      <div class="container">
+        <!--Let's include a "header" for our navigation bar to hold two things: brand or logo, and a menu button in case the navigation bar collapses due to page width constraints (aka responsive design)-->
+        <div class="navigation-header">
+          <!--Our brand or logo-->
+          <a href="#" class="my-brand">Brand/Logo</a>
+          <!--This will create a 3-line menu button if the navigation bar collapses; check CSS file for more details-->
+          <button class="navigation-menu-toggle" type="button" data-toggle="collapse" data-target="#navigation-bar-top">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <!--Now comes the main portion of our navigation bar: the navigation links-->
+        <div class="navigation-bar-top collapse" id="navigation-bar-top">
+          <!--The first part of our nav bar is on the left side of the page-->
+          <ul class="navigation-options left">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+          </ul>
+          <ul class="navigation-options right">
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+            <li><a href="#">Link 6</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
     <h1>Hello World!</h1>
     <p>I'm learning HTML5, CSS3, and JavaScript.</p>
   </body>

@@ -1,3 +1,5 @@
+/*Check out the following link for help with CSS selectors http://www.w3schools.com/cssref/css_selectors.asp*/
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 /**
@@ -423,3 +425,16 @@ th {
   padding: 0;
 }
 /*End normalize.css*/
+
+/*BEGIN CUSTOM CSS*/
+.navigation-menu-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+/*Using "+" selects all elements immediately following the first element, in this case all .icon-bars following .icon-bar*/
+.navigation-menu-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
