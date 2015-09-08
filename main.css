@@ -318,6 +318,23 @@ th {
   margin-top: 4px;
 }
 
+/* SOCIAL MEDIA ICONS*/
+a.btn.btn-social-icon.btn-facebook:hover {
+    color: #4060A5;
+}
+
+a.btn.btn-social-icon.btn-twitter:hover {
+    color: #00ABE3;
+}
+
+a.btn.btn-social-icon.btn-google:hover {
+    color: #e64522;
+}
+
+a.btn.btn-social-icon.btn-linkedin:hover {
+    color: #0094BC;
+}
+
 /*my-container; css copied from bootstrap's container class*/
 .my-container {
   margin-right: auto;
