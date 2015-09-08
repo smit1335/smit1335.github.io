@@ -317,3 +317,26 @@ th {
 .navigation-menu-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
+
+/*my-container; css copied from bootstrap's container class*/
+.my-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .my-container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .my-container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .my-container {
+    width: 1170px;
+  }
+}
