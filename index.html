@@ -1,28 +1,4 @@
 <!DOCTYPE html>
-<!--Organizational Structure of <body>
-1. Navigation (class="navigation-top")
-  a. Navigation Bar Header (class="navigation-header")
-      i. Brand or Logo (class="my-brand")
-     ii. Responsive Menu Button (class="navigation-menu-toggle")
-  b. Navigation Bar (class="navigation-bar-top")
-      i. Navigation Left (class="navigation-bar-top-left")
-     ii. Navigation Right (class="navigation-bar-top-right")
-    iii. Search Right (class="navigation-bar-top-right")
-3. Content Header
-  a. Title
-  b. Subtitle
-  c. Call to Action
-4. Main-Body
-  a. First Row
-      i. Content
-     ii. Content
-    iii. Content
-  b. Second Row
-      i. Content
-     ii. Content
-    iii. Content
-5. Footer
-  a. About -->
 <html lang="en">
   <head>
     <!--Define the character encoding used-->
@@ -54,63 +30,121 @@
     <!--Appears in the browser tab, is the default name when added to favorites, and the title displayed in search engines-->
     <title>Brennan B. Smith</title>
 
+    <!--Bootstrap style sheet-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!--Font Awesome basic style sheet; used for social media icons-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
     <!--Custom style sheet; noramlize.css is the base-->
     <link rel="stylesheet" href="main.css">
 
     <!--jQuery library-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--Bootstrap js file-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
   </head>
   <body>
-    <!--At the top of our page goes our navigation bar-->
-    <nav class="navigation-top navigation-bar">
-      <!--We want to keep all of our navigation elements together in a grouping of sorts; lets use "my-container"-->
-      <div class="my-container">
-        <!--Let's include a "header" for our navigation bar to hold two things: brand or logo, and a menu button in case the navigation bar collapses due to page width constraints (aka responsive design)-->
-        <div class="navigation-header">
-          <!--Our brand or logo-->
-          <a href="#" class="my-brand">Brand/Logo</a>
-          <!--This will create a 3-line menu button if the navigation bar collapses; check CSS file for more details-->
-          <button class="navigation-menu-toggle" type="button" data-toggle="collapse" data-target="#navigation-bar-top">
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-top-navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
+        </button>
+        <a class="navbar-brand" href="/">Brennan B. Smith</a>
         </div>
-        <!--Now comes the main portion of our navigation bar: the navigation links-->
-        <div class="navigation-bar-top collapse" id="navigation-bar-top">
-          <!--The first part of our nav bar is on the left side of the page-->
-          <ul class="navigation-options left">
-            <li><a href="/mybootstrap">MyBootstrap</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="my-top-navbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
           </ul>
-          <ul class="navigation-options right">
-            <li><a href="#">Link 4</a></li>
-            <li><a href="#">Link 5</a></li>
-            <li><a href="#">Link 6</a></li>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/resume">About</a></li>
+            <li><a class="btn btn-social-icon btn-facebook" href="#">
+              <i class="fa fa-facebook"></i>
+            </a></li>
+            <li><a class="btn btn-social-icon btn-twitter" href="#">
+              <i class="fa fa-twitter"></i>
+            </a></li>
+            <li><a class="btn btn-social-icon btn-google" href="#">
+              <i class="fa fa-google"></i>
+            </a></li>
+            <li><a class="btn btn-social-icon btn-linkedin" href="#">
+              <i class="fa fa-linkedin"></i>
+            </a></li>
           </ul>
-          <!--Search function (form + search button)-->
-          <!--ADD HERE-->
-        </div>
-      </div>
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
     </nav>
-    <!--Page Header-->
-    <div class="page-header">
-      <!--Keep elements of page-header together-->
-      <div class="my-container">
-        <h1>Hello World!</h1>
-        <p>I'm learning HTML5, CSS3, and JavaScript.</p>
-        <p><button class="my-button-call-to-action" type="button" onclick="open.href='#'">Learn More</button></p>
+    <!--End Navigation Bar-->
+    <!--Jumbotron-->
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Brennan B. Smith</h1>
+        <p>Policy wonk, tech junkie, world traveller.</p>
+        <p><a class="btn btn-primary btn-lg" href="/resume" role="button">Learn more</a></p>
       </div>
     </div>
-    <!--End Page Header-->
+    <!--End Jumbotron-->
     <!--Main Content-->
-
-
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="http://www.engraversnetwork.com/files/placeholder.jpg" alt="...">
+            <div class="caption">
+              <h3>Thumbnail 1</h3>
+              <p>...</p>
+              <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="http://www.engraversnetwork.com/files/placeholder.jpg" alt="...">
+            <div class="caption">
+              <h3>Thumbnail 2</h3>
+              <p>...</p>
+              <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="http://www.engraversnetwork.com/files/placeholder.jpg" alt="...">
+            <div class="caption">
+              <h3>Thumbnail 3</h3>
+              <p>...</p>
+              <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Main Content-->
 
   </body>
-</html>
