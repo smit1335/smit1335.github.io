@@ -305,6 +305,7 @@ th {
 /*End normalize.css*/
 
 /*BEGIN CUSTOM CSS*/
+
 /*custom float classes*/
 .float-left {
   float: left;
@@ -362,4 +363,12 @@ a.btn.btn-social-icon.btn-linkedin:hover {
   .my-container {
     width: 1170px;
   }
+}
+/*end my-container css*/
+/*Table for my resume*/
+td .resume-instituion {
+  width:80%;
+}
+td .resume-time-spent {
+  width:20%;
 }
