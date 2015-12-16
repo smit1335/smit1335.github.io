@@ -31,54 +31,56 @@
   </head>
   <body>
     <div id="wrapper"> <!--Wrap all elements of page in this to keep footer fixed at bottom of page-->
-      <!--Navigation Bar-->
-      <nav class="navbar navbar-default navbar-fixed-top">
+      <div id="content">
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-top-navbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="my-top-navbar">
+              <ul class="nav navbar-nav">
+                <li><a class="btn" href="index">
+                  <i class="fa fa-home"></i>
+                </a></li>
+                <li class="active"><a href="/basic">Basic<span class="sr-only">(current)</span></a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/resume">About</a></li>
+                <li><a class="btn btn-social-icon btn-facebook" href="#">
+                  <i class="fa fa-facebook"></i>
+                </a></li>
+                <li><a class="btn btn-social-icon btn-twitter" href="#">
+                  <i class="fa fa-twitter"></i>
+                </a></li>
+                <li><a class="btn btn-social-icon btn-google" href="#">
+                  <i class="fa fa-google"></i>
+                </a></li>
+                <li><a class="btn btn-social-icon btn-linkedin" href="#">
+                  <i class="fa fa-linkedin"></i>
+                </a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container -->
+        </nav>
+        <!--End Navigation Bar-->
+        <!--Jumbotron-->
         <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#my-top-navbar" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-          </button>
+          <div class="jumbotron">
+            <h1>#Back2Basics</h1>
+            <p>A basic web page built with Bootstrap</p>
+            <p><a class="btn btn-primary btn-lg" href="/resume" role="button">Learn more</a></p>
           </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="my-top-navbar">
-            <ul class="nav navbar-nav">
-              <li><a class="btn" href="index">
-                <i class="fa fa-home"></i>
-              </a></li>
-              <li class="active"><a href="/basic">Basic<span class="sr-only">(current)</span></a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="/resume">About</a></li>
-              <li><a class="btn btn-social-icon btn-facebook" href="#">
-                <i class="fa fa-facebook"></i>
-              </a></li>
-              <li><a class="btn btn-social-icon btn-twitter" href="#">
-                <i class="fa fa-twitter"></i>
-              </a></li>
-              <li><a class="btn btn-social-icon btn-google" href="#">
-                <i class="fa fa-google"></i>
-              </a></li>
-              <li><a class="btn btn-social-icon btn-linkedin" href="#">
-                <i class="fa fa-linkedin"></i>
-              </a></li>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container -->
-      </nav>
-      <!--End Navigation Bar-->
-      <!--Jumbotron-->
-      <div class="container">
-        <div class="jumbotron">
-          <h1>#Back2Basics</h1>
-          <p>A basic web page built with Bootstrap</p>
-          <p><a class="btn btn-primary btn-lg" href="/resume" role="button">Learn more</a></p>
         </div>
+        <!--End Jumbotron-->
       </div>
-      <!--End Jumbotron-->
       <footer id="footer">
         <div class="container">
           <h1>#footer</h1>
