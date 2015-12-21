@@ -74,6 +74,22 @@ html,body {
 /*End Container*/
 /*Buttons*/
 /*End Buttons*/
+/*Nav*/
+.bs-nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.bs-nav > li {
+  position: relative;
+  display: block;
+}
+.bs-nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+/*End Nav*/
 /*Grid system*/
 .row {
   margin-right: -15px;

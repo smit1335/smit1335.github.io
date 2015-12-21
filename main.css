@@ -303,18 +303,9 @@ th {
   padding: 0;
 }
 /*End normalize.css*/
-
 /*BEGIN CUSTOM CSS*/
 
-/*custom float classes*/
-.float-left {
-  float: left;
-}
-.float-right {
-  float: right;
-}
-
-/*Navigation menu (aka when screen is too small for navbar)*/
+/*Navigation Menu (aka when screen is too small for navbar)*/
 .navigation-menu-toggle .icon-bar {
   display: block;
   width: 22px;
@@ -327,6 +318,7 @@ th {
 .navigation-menu-toggle .icon-bar + .icon-bar {
   margin-top: 4px;
 }
+/*End Navigation Menu*/
 
 /* SOCIAL MEDIA ICONS*/
 a.btn.btn-social-icon.btn-facebook:hover {
@@ -341,32 +333,14 @@ a.btn.btn-social-icon.btn-google:hover {
 a.btn.btn-social-icon.btn-linkedin:hover {
     color: #0094BC;
 }
-
-/*my-container; css copied from bootstrap's container class*/
-.my-container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-@media (min-width: 768px) {
-  .my-container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .my-container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .my-container {
-    width: 1170px;
-  }
-}
-/*end my-container css*/
+/*End Social Media Icons*/
 
 /*Wrapped elements in #wrapper to keep #footer at bottom of page*/
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 #wrapper {
   min-height:100%;
 	position:relative;
