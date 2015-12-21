@@ -1,4 +1,9 @@
 /*Wrap elements in #wrapper to keep #footer at bottom of page when you don't have enough content to fill an entire page*/
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 #bs-wrapper {
   min-height:100%;
 	position:relative;
