@@ -28,6 +28,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!--Bootstrap js file-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!--Processing.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.16/processing.min.js"></script>
     <!--My fish tank file-->
     <script src="scripts/fishtank.js"></script>
   </head>
@@ -86,8 +88,8 @@
       <div id="content">
         <div class="container">
           <h1>#content</h1>
-          <h2>FishTank.js</h2>
-          <canvas id="fishtank" width="400" height="400">Browser does not support HTML5 canvas.</canvas>
+          <h2>My Fish Tank</h2>
+          <canvas data-processing-sources="fishtank.js" width="400" height="400">Browser does not support HTML5 canvas.</canvas>
         </div>
       </div>
       <footer id="footer">
