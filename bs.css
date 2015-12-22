@@ -28,7 +28,8 @@ html,body {
 .bs-right {
   float: right;
 }
-.bs-nav:after, .bs-navbar:after, .bs-container:after { /*The "clearfix" hack*/
+.bs-nav:after, .bs-navbar:after,
+.bs-container:after, .bs-container:before { /*The "clearfix" hack*/
   content:"";
   display: table;
   clear: both;
