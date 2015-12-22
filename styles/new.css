@@ -1,0 +1,58 @@
+/*Navigation Menu (aka when screen is too small for navbar)*/
+.navigation-menu-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+/*Using "+" selects all elements immediately following the first element,
+  in this case all .icon-bars following .icon-bar*/
+.navigation-menu-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+/*End Navigation Menu*/
+/*Social Media Icon Hover Colors*/
+a.btn.btn-social-icon.btn-facebook:hover {
+    color: #4060A5;
+}
+a.btn.btn-social-icon.btn-twitter:hover {
+    color: #00ABE3;
+}
+a.btn.btn-social-icon.btn-google:hover {
+    color: #e64522;
+}
+a.btn.btn-social-icon.btn-linkedin:hover {
+    color: #0094BC;
+}
+/*End Social Media Icon Hover Colors*/
+/*The "clearfix" hack*/
+.group:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+/*End Clearfix*/
+/*Wrapped elements in #wrapper to keep #footer at bottom of page*/
+html,body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#wrapper {
+  min-height:100%;
+	position:relative;
+}
+#header {}
+#content{
+  padding-bottom: 100px; /*height of #footer*/
+}
+#footer {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #606060;
+  color: #f8f8f8;
+}
+/*End Wrapper*/
