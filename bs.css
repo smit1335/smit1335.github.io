@@ -89,6 +89,8 @@ html,body {
   position: relative;
   display: block;
   padding: 10px 15px;
+  text-decoration: none;
+  color: inherit;
 }
 .bs-nav-default {
   background-color: #f8f8f8;
@@ -96,7 +98,6 @@ html,body {
   color: #777;
   border-color: #ddd;
 }
-
 .bs-navbar-fixed-top {
   position: fixed;
   right: 0;
