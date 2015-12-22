@@ -82,7 +82,7 @@ html,body {
 }
 .bs-nav > li {
   position: relative;
-  display: block;
+  display: inline-block;
 }
 .bs-nav > li > a {
   position: relative;
