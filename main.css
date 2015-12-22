@@ -334,7 +334,13 @@ a.btn.btn-social-icon.btn-linkedin:hover {
     color: #0094BC;
 }
 /*End Social Media Icons*/
-
+/*The "clearfix" hack*/
+.group:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+/*End Clearfix*/
 /*Wrapped elements in #wrapper to keep #footer at bottom of page*/
 html,body {
   margin: 0;
