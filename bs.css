@@ -96,6 +96,14 @@ html,body {
   top: 0;
   border-width: 0 0 1px;
 }
+.bs-navbar-nav {
+  margin: 7.5px -15px;
+}
+.bs-navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
 /*End Nav*/
 /*Grid system*/
 .row {
