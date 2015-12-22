@@ -90,6 +90,13 @@ html,body {
   display: block;
   padding: 10px 15px;
 }
+.bs-nav-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+  color: #777;
+  border-color: #ddd;
+}
+
 .bs-navbar-fixed-top {
   position: fixed;
   right: 0;
