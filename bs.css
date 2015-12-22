@@ -4,6 +4,9 @@ html,body {
   padding: 0;
   height: 100%;
 }
+body {
+  padding-top: 60px;
+}
 #bs-wrapper {
   min-height:100%;
 	position:relative;
