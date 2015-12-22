@@ -39,7 +39,7 @@ html,body {
   height: 100%;
 }
 body {
-  padding: 50px;
+  padding-top: 50px;
 }
 #wrapper {
   min-height:100%;
