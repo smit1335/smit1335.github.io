@@ -58,3 +58,6 @@ body {
   color: #f8f8f8;
 }
 /*End Wrapper*/
+#home-jumbo {
+  background-image: linear-gradient(rgba(0, 0, 0 , 0.6), rgba(0, 0, 0, 0.6)), url('images/wedpic.jpg');
+}
