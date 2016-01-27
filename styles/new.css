@@ -60,4 +60,9 @@ body {
 /*End Wrapper*/
 #home-jumbo {
   background-image: linear-gradient(rgba(0, 0, 0 , 0.6), rgba(0, 0, 0, 0.6)), url('http://smit1335.github.io/images/wedpic.jpg');
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  -ms-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
 }
