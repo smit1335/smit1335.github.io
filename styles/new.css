@@ -54,7 +54,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: #606060;
+  background: linear-gradient(rgba(0, 0, 0 , 0.6), rgba(0, 0, 0, 0.6)), #000080;
   color: #f8f8f8;
 }
 /*End Wrapper*/
